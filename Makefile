@@ -5,7 +5,7 @@ DEBUG   = -g
 NOCRYPT = 
 O_FLAGS = -O
 C_FLAGS = $(O_FLAGS) -Wall $(DEBUG) $(PROF) $(NOCRYPT) 
-L_FLAGS = $(O_FLAGS)                $(PROF) -lcrypt
+L_FLAGS = $(O_FLAGS)                $(PROF)
 O_FILES = SeeedOLED.o main.o
 
 install: $(O_FILES)
